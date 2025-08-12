@@ -1,7 +1,5 @@
-# Author : Abhay
-
 import turtle
-
+#turtle is the function in python to access the arrow where to move.
 srn = turtle.Screen()
 srn.title("Indian Flag")
 turtle.speed(1)
@@ -115,4 +113,5 @@ turtle.goto(-120, 230)
 turtle.pendown()
 turtle.write("Happy Independence Day", move=True, font=("Varela Round",20))
 turtle.hideturtle()
+
 turtle.done()
